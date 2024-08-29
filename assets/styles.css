@@ -282,6 +282,18 @@ li {
   gap: 0.5rem;
 }
 
+.copyright-wrapper {
+  background-color: #f9fafb;
+  padding: 1.5rem 5rem;
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.copyright-wrapper a {
+  text-decoration: underline;
+}
+
 @media only screen and (max-width: 768px) {
   .hero .left-column {
     width: 100%;
@@ -407,5 +419,9 @@ li {
 
   .contact {
     padding: 2rem 1rem;
+  }
+
+  .copyright-wrapper {
+    padding: 1.5rem 1rem;
   }
 }
