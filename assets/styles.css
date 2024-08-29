@@ -256,7 +256,30 @@ li {
 .contact-details {
   display: flex;
   flex-direction: row;
+  align-items: center;
   gap: 1.25rem;
+  justify-content: center;
+}
+
+.contact-details a {
+  font-size: 2.25rem;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: -2%;
+  color: #111827;
+}
+
+.contact-socials {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.socials-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -371,5 +394,18 @@ li {
 
   .skills-badges {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .contact-details a {
+    font-size: 1.125rem;
+    line-height: 28px;
+  }
+
+  .contact-details svg {
+    font-size: 32px;
+  }
+
+  .contact {
+    padding: 2rem 1rem;
   }
 }
