@@ -199,6 +199,10 @@ li {
   width: 50%;
 }
 
+.project-img-wrapper img {
+  border-radius: 12px;
+}
+
 .project-info-wrapper {
   display: flex;
   flex-direction: column;
